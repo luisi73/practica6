@@ -9,8 +9,8 @@ public class TelefonoTest {
     @Test
     public void testTelefono(){
         Telefono telefono_español = new Telefono("619321455");
-        Telefono telefono_internacional = new Telefono("+447887636994"); //:P
-        Telefono telefono_falso = new Telefono("1234555666667894213213"); 
+        Telefono telefono_internacional = new Telefono("+30619321455"); 
+        Telefono telefono_falso = new Telefono("649643965693456932563659"); 
 
         boolean valid_telf_true = telefono_español.validar();
 

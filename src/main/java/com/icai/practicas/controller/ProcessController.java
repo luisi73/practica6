@@ -60,7 +60,7 @@ public class ProcessController {
             @NonNull
             @NotEmpty
             String telefono) {}
-    record DataResponse (String result) {}
+    public record DataResponse (String result) {}
 
     @PostMapping(
             path="/process-step1",
