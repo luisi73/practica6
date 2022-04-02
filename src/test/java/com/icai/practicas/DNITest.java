@@ -10,7 +10,7 @@ public class DNITest {
     public void testDNI(){
 				//Meto un DNI con un valor verdadero, y uno con uno falso 
         DNI dni_test_true = new DNI("06679111A");
-        DNI dni_test_false = new DNI("1234567891");
+        DNI dni_test_false = new DNI("0764365891");
 
         boolean valid_DNI_false= dni_test_false.validar();
         boolean valid_DNI_true = dni_test_true.validar();
